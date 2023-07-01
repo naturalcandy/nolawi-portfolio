@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 
 const SocialLinks = () => {
@@ -9,16 +9,6 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                LinkedIn <FaLinkedin size = {30} />  
-                </> 
-            ),
-            href: "https://linkedin.com/",
-            style: 'rounded-tr-md'
-        },
-        {
-            id: 2,
-            child: (
-                <>
                 GitHub <FaGithub size = {30} />  
                 </> 
             ),
@@ -26,7 +16,7 @@ const SocialLinks = () => {
             style: 'rounded-tr-md'
         },
         {
-            id: 3,
+            id: 2,
             child: (
                 <>
                 Mail <HiOutlineMail size = {30} />  
