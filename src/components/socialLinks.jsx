@@ -13,7 +13,6 @@ const SocialLinks = () => {
                 </> 
             ),
             href: "https://github.com/naturalcandy",
-            style: 'rounded-tr-md'
         },
         {
             id: 2,
@@ -24,7 +23,6 @@ const SocialLinks = () => {
             ),
             href: "mailto:nolawigerawork@gmail.com",
         }
-        // add resume link
     ]
     return (
         <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">

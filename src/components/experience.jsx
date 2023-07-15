@@ -1,6 +1,4 @@
 import React from 'react';
-import html from '../assets/html.png';
-import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png';
 import github from '../assets/github.png';
@@ -14,6 +12,8 @@ import cpp from '../assets/cpp.png';
 import angularimg from '../assets/Angularimg.svg.png';
 import msql from '../assets/msqll.png';
 import typescript from '../assets/typescript.png';
+import htmlcss from '../assets/htmlcss.png';
+import java from '../assets/java.webp';
 import { Element } from 'react-scroll';
 
 const Experience = () => {
@@ -62,14 +62,14 @@ const Experience = () => {
         },
         {
             id : 8,
-            src : html,
-            title : 'HTML',
+            src : htmlcss,
+            title : 'HTML & CSS',
             style : 'shadow-orange-500'
         },
         {
             id : 9,
-            src : css,
-            title : 'CSS',
+            src : java,
+            title : 'Java',
             style : 'shadow-blue-500'
         },
         {
